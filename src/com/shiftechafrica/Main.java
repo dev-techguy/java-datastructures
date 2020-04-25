@@ -3,6 +3,7 @@ package com.shiftechafrica;
 import com.shiftechafrica.arraylist.ArrayListExample;
 import com.shiftechafrica.collection.CollectionsExample;
 import com.shiftechafrica.iterable.IterableExample;
+import com.shiftechafrica.linked.LinkedListExample;
 
 public class Main {
 
@@ -13,5 +14,7 @@ public class Main {
         new IterableExample();
         System.out.println("\n------- Running ArrayList Interface ----------");
         new ArrayListExample();
+        System.out.println("\n------- Running LinkedList Interface ----------");
+        new LinkedListExample();
     }
 }
