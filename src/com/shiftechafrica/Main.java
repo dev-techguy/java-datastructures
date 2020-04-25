@@ -1,5 +1,8 @@
 package com.shiftechafrica;
 
+import com.shiftechafrica.collection.CollectionsExample;
+import com.shiftechafrica.iterable.IterableExample;
+
 public class Main {
 
     public static void main(String[] args) {

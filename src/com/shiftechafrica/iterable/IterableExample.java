@@ -1,11 +1,10 @@
-package com.shiftechafrica;
+package com.shiftechafrica.iterable;
 
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.Iterator;
 
 public class IterableExample {
-    IterableExample() {
+    public IterableExample() {
         Collection collection = Arrays.asList(
                 "java",
                 "php",
@@ -16,9 +15,8 @@ public class IterableExample {
                 "react-js"
         );
 
-        Iterator iterator = collection.iterator();
-        while (iterator.hasNext()) {
-            System.out.println(iterator.next());
+        for (Object o : collection) {
+            System.out.println(o);
         }
     }
 }
