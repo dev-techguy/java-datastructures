@@ -16,5 +16,7 @@ public class Main {
         new ArrayListExample();
         System.out.println("\n------- Running LinkedList Interface ----------");
         new LinkedListExample();
+        System.out.println("\n------- Running Vector Interface ----------");
+        new LinkedListExample();
     }
 }
